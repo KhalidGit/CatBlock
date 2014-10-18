@@ -1,1 +1,1 @@
-$("#ad_main").remove();
+$( "#ad_main" ).replaceWith( "<img src='http://thecatapi.com/api/images/get?format=src&type=gif'></img>" );
