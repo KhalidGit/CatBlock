@@ -1,4 +1,5 @@
-var selectors = ['*[id^="ad"]', "[id*='-ad']", "[id*='_ad']", "[id*=' ad']", '*[class^="ad"]'];
+var selectors = ['*[id^="ad"]', "[id*='-ad']", "[id*='_ad']", "[id*=' ad']",
+                '*[class^="ad"]', "[class*='-ad']", "[class*='_ad']", "[class*=' ad']"];
 var i = 0;
 
 for(i=0;i<selectors.length;i++){
@@ -14,3 +15,7 @@ for(i=0;i<selectors.length;i++) {
 }
 
 //thecatapi.com/api/images/get?format=xml&results_per_page=20&type=gif
+
+//fox news
+//cnn
+//reddit
