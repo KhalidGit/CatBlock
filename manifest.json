@@ -6,8 +6,8 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://www.reddit.com/*", "http://www.reddit.com/*"],
-      "js": ["CatBlock.js", "jquery.min.js"]
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["jquery.min.js", "CatBlock.js"]
     }],
   "permissions": [
     "http://thecatapi.com/"
