@@ -1,5 +1,5 @@
 var selectors = ['*[id^="ad"]', "[id*='-ad']", "[id*='_ad']", "[id*=' ad']",
-                '*[class^="ad"]', "[class*='-ad']", "[class*='_ad']", "[class*=' ad']"];
+                 '*[class^="ad"]', "[class*='-ad']", "[class*='_ad']", "[class*=' ad']"];
 var i = 0;
 
 for(i=0;i<selectors.length;i++){
