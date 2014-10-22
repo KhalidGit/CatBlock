@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "CatBlock",
-  "description": "Replace blocks with pictures of cute cats.",
-  "version": "1.0",
+  "description": "Replace ads with cats.",
+  "version": "1.1",
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
